@@ -1,0 +1,249 @@
+/* agregamos una fuente: 'Open Sans', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300&family=Zen+Loop:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* 
+margin: del borde hacia afuera
+padding: del borde hacia adentro
+ */
+
+/** configurando el header que se va a usar en todas las secciones + logo */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#272727;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    padding-left: 15px;
+}
+
+.top-menu {
+    padding-right: 15px;
+    text-align: end;
+    text-decoration: none;
+    
+}
+nav a {
+    padding-right: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: goldenrod;
+}
+
+
+/** configuracion del body */
+body {
+    background-color: black;
+}
+
+/*? configuracion body index */
+.body-banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* configuracion estilo del body contacto */
+.contact-container{
+    color: #f9f9f9;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+.contact-container fieldset{
+    padding: 10px;
+}
+
+.contact-container a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.catpcha{
+    background-color: lightgray;
+    border: 2px solid rebeccapurple;
+    padding: 5px;
+    width: 200px;
+    color: #272727;
+}
+
+/* configuracion body nosotros */
+
+.nosotros-container{
+    color: #f9f9f9;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 40px;
+}
+
+.nosotros-container a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+/*  configuracion body servicio tecnico*/
+.service-container{
+    color: white;
+    padding: 40px;
+    margin-left: 15;
+}
+
+.info-container {
+    background-color: #272727;
+    font-size: 17px;
+}
+
+.short-desc, .long-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* configuracion del body garantia */
+
+.garantia-container {
+    color: #f9f9f9;
+    background-color: #272727 ;
+    margin: 20px;
+    
+}
+
+.garantia-container p,h4 {
+    margin: 15px;
+    line-height: 25px;
+    
+}
+.garantia-container h4{
+    font-size: 25px;
+    height: 250px;
+}
+.titulo{
+    text-align: center;
+    
+}
+
+/** Configuracion de footer que van a usar todas las secciones */
+footer {
+    background-color: #272727;
+    color: white;
+}
+
+/* contenedor general para que ocupe todo y se centre */
+.container-footer-all{    
+    margin: auto;
+    padding: 25px
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between
+}
+
+
+/* Configuracion del contenedor footer-info  */
+.footer-info-container h1{
+    font-size: 20px;
+}
+
+.footer-info-container p{
+    font-size: 15px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.footer-info-container img{
+    margin-top: 20px;
+}
+
+
+/* Configuracion del contenedor social-icons*/
+.social-icons-container h1{
+    font-size: 20px;
+}
+
+.social-icon{
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icon label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+
+/* Configuracion del contenedor menu-contacts*/
+.menu-contact-container h1{
+    font-size: 20px;
+}
+
+.menu-contact {
+    margin-top: 20px;
+    display: flex;
+}
+
+.menu-contact img{
+    width: 30px;
+    height: 30px;
+}
+
+.menu-contact label {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+
+/* Configuracion del container-footer */
+.container-footer {
+    background: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.copyright{
+    color: white;
+}
+
+.Informacion-inicial a{
+    text-decoration: none;
+    color: white;
+}
+
+.Informacion-inicial a:hover{
+    color: goldenrod;
+}
+
